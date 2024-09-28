@@ -1,0 +1,47 @@
+body{
+
+background-image: url("rer.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background-color: #2600ff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa;
+    padding: 0.5rem;
+}
+nav a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    padding: 2rem;
+}
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e7e7e7;
+}
